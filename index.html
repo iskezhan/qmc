@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet " href="style.css">
+    
+    <title>Qalyn mal calculator</title>
+
+</head>
+<body>
+  <h2 class="calculator__title" style="text-align: center;">Qalyn mal calculator</h2>
+    <label>First name</label>
+    <input id="firstname" type="text">
+    <br>
+    <label>Starting bid</label>
+    <input id="startingbid" type="number">
+        
+        <h3 class="calculator__subtitle">Bride's education</h3>
+        <select class="bride-education" >
+      <option></option>
+      <option class="education-option">Undergraduate degree</option>
+      <option class="education-option">College degree</option>
+      <option class="education-option">High school degree</option>
+      <option class="education-option">Middle school degree</option></select>
+
+
+
+      <h3 class="calculator__subtitle">Bride's family net worth</h3>
+      <select class="family-net">
+      <option></option>
+      <option class="family-option">More than 100,000$</option>
+      <option class="family-option">Between 50,000$ and 100,000$</option>
+      <option class="family-option">Less than 50,000$</option></select>
+
+        
+<br></br>
+<h3 class="calculator__subtitle">Bride's skills</h3>
+
+    <label for="skill1" class="container">
+        <input type="checkbox" id ="skill1" value="100">
+        <span class="checkmark"></span>
+      Playing on dombra</label>
+
+      <br>
+
+      <label for="skill2" class="container">
+        <input type="checkbox" id ="skill2" value="200">
+        <span class="checkmark"></span>
+        Good cook</label>
+
+      <br>
+
+      <label for="skill3" class="container">
+        <input type="checkbox" id ="skill3" value="150">
+        <span class="checkmark"></span>
+        Easygoing character </label>
+
+      <br>
+      
+      <label for="skill4" class="container">
+        <input type="checkbox" id ="skill4" value="100">
+        <span class="checkmark"></span>
+        Sings well</label>
+      
+<hr>
+   
+<h3 class="calculator__subtitle">Bride's age</h3>
+<div>
+    <form action="" id="agefound" onsubmit="return false;">
+        <div class="cont_order">       
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="18"> Between 18-23 
+                </label>  <br>
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="24" > Between 24-27
+                </label> <br>
+                <label for="" class="radiolabel">
+                    <input type="radio" name="agecount" value="28" > 28+
+                </label> <br>
+                
+                <br>
+            </div>
+
+
+
+
+
+
+
+                <h3 class="calculator__subtitle">Bride's/Groom's reputation</h3>
+
+                    <div>
+                    <br>
+                    <input type="checkbox" class="gossip"> Gossips about his/her parent's attitude
+                    <br>
+
+                    <input type="checkbox" class="gossip"> Gossips about his/her character 
+                    <br>
+                    <input type="checkbox" class="gossip"> General gossips around his/her person
+                    <br>
+            
+                </div>
+                <br>
+                <label>Love letter</label><br>
+                <textarea id="love_letter"></textarea>
+                  <br>
+                <br>
+      <button id="submit-quote">Calculate Price</button>
+    
+  
+      <div class="calculator calculator__your-quote">
+        <h2 class="calculator__title">Your Price</h2>
+        <h3 class="price">$...</h3>
+    
+      </div>
+    </div>
+    
+      
+      
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
